@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4%);
+  color: #333;
+}
+
+h2 {
+  font-family: "Gravitas One", serif; 
+  font-weight: 400; 
+}
+
+/* Header */
+header {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* About Section */
+#about {
+  background: #e9ecef;
+  padding: 50px 20px;
+  text-align: center; /* Center the content */
+  color: #000000;
+  font-size: 1.2em; /* Increase font size for better readability */
+  line-height: 1.6; /* Increase line height for better readability */
+  font-weight: 500;
+}
+.profile-image {
+  width: 300px;
+  height: 300px; /* Ensure the height matches the width for a circle */
+  border-radius: 50%; /* Make it circular */
+  border: 5px solid rgba(237,3,32,0.87);; /* Add a border */
+  margin: 20px 0; /* Add margin for spacing */
+}
+
+/* Projects */
+#projects {
+  text-align: center;
+  padding: 50px 20px;
+  background: white;
+  color: #000000;
+  font-size: 1.2em; /* Increase font size for better readability */
+  line-height: 1.6; /* Increase line height for better readability */
+  font-weight: 500;
+}
+
+.projects {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 200px;
+  transition: transform 0.2s;
+}
+
+.project h3 {
+  color: #000000;
+}
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.project p {
+  border: #000000 2px solid;
+  padding: 10px;
+  border-radius: 5px; /* Add rounded corners */
+  text-align: justify;
+}
+
+.fun-fact-image {
+  width: 1100px;
+  height: 500px;
+  margin-top: 20px;
+
+}
+
+.rainbow-cat-image {
+  width: 1100px;
+  height: 500px;
+  margin-top: 20px;
+
+}
+
+.tasty-bite-image {
+  width: 1100px;
+  height: 500px;
+  margin-top: 20px;
+
+}
+
+#projects img {
+  border:#000000 2px solid;
+}
+
+/* Contact */
+#contact {
+  text-align: center;
+  padding: 50px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );
+  color: white;
+}
+.social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 10px 20px;
+  background: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background: #004494;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );
+  color: white;
+}
+
+
